@@ -12,7 +12,7 @@ class Solution{
         int maxi=max(left,right)+1;
         
         return maxi;
-    }*/
+    }*
     pair<bool ,int> isBalancedfast(Node* root){
        if(root==NULL){
            pair<bool,int> p=make_pair(true,0);
